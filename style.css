@@ -5,28 +5,28 @@ body {
   font-family: Lato, sans-serif;
 }
 
-.wrapper-image {
+.sheme-todo {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.image-todo {
+.sheme-todo__image {
   width: 100%;
 }
 
-.more-info {
+.sheme-todo__more-info {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .wrapper-image {
+  .sheme-todo {
     text-align: center;
   }
 }
 
-.wrapper-tasks {
+.tasks {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -38,7 +38,7 @@ body {
   flex-grow: 1;
 }
 
-.new-task-wrapper {
+.tasks_new-task-wrapper {
   display: flex;
 }
 
