@@ -20,7 +20,7 @@ body {
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .sheme-todo {
     text-align: center;
   }
@@ -89,8 +89,8 @@ input[type="text"] {
   line-height: 18px;
   height: 21px;
   padding: 0 9px;
-  border: 1px solid #dDd;
-  background: #FFF;
+  border: 1px solid #ddd;
+  background: #fff;
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
@@ -125,14 +125,14 @@ input[type="checkbox"] {
   margin: 0 10px;
 }
 
-li > label {
+.task-name {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-li > input[type="text"] {
+.task-input {
   width: 226px;
 }
 
@@ -147,21 +147,21 @@ li > input[type="text"] {
 }
 
 /* Completed */
-#completed-tasks label {
+.completed-task-label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-ul li input[type=text] {
+.task-input {
   display: none;
 }
 
-.edit-mode input[type=text] {
+.edit-mode .task-input {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode label {
+.edit-mode .task-name {
   display: none;
 }
